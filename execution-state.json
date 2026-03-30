@@ -1,0 +1,2392 @@
+{
+  "version": "1.0",
+  "walletAddress": "0x569EC506f168AE218a3fE7b1CaA9354a4908eD9A",
+  "chain": "base",
+  "lastCycleAt": "2026-03-30T21:58:29.497Z",
+  "enabled": true,
+  "positions": [
+    {
+      "id": "lp-uniswap-v3-arbitrum-WBTC-WETH-1774678794308",
+      "type": "lp",
+      "entryDate": "2026-03-28T06:19:54.308Z",
+      "entryValueUSD": 60.00032376000001,
+      "currentValueUSD": 60,
+      "rebalanceCount": 0,
+      "outOfRangeSince": null,
+      "status": "failed",
+      "protocol": "uniswap-v3",
+      "chain": "arbitrum",
+      "strategySlice": "A",
+      "apy": 41.8,
+      "firstEntryDate": "2026-03-28T06:19:54.308Z",
+      "token0": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+      "token1": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+      "token0Symbol": "WBTC",
+      "token1Symbol": "WETH",
+      "failReason": "Never minted — no nftTokenId recorded; ghost entry"
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774680309558",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "24000130",
+      "depositedUSD": 24.00013,
+      "currentValueUSD": 45.03,
+      "entryDate": "2026-03-28T06:45:09.558Z",
+      "entryAPY": 6.68,
+      "entryTxHash": "0xe928d3c49896c862c367a64b863d01032676c13471d58fe8cd77f2b5b264fe06",
+      "status": "active",
+      "strategySlice": "B",
+      "apy": 6.7,
+      "firstEntryDate": "2026-03-28T06:45:09.558Z"
+    },
+    {
+      "id": "fluid-lending-base-USDC-1774769471060",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "base",
+      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "assetSymbol": "USDC",
+      "depositedAmount": "22095413",
+      "depositedUSD": 22.095413,
+      "currentValueUSD": 58.89303499999999,
+      "balanceUSD": 22.095413,
+      "apy": 6.38,
+      "strategySlice": "A",
+      "entryDate": "2026-03-29T07:31:11.060Z",
+      "firstEntryDate": "2026-03-29T07:31:11.060Z",
+      "entryAPY": 6.38,
+      "entryTxHash": "0x2f61694b1b0af7aefc2642e8bfb58fbd059c65ad7685b252573f89df43030651",
+      "status": "active",
+      "poolSymbol": "USDC"
+    },
+    {
+      "id": "aave-v3-arbitrum-USDC-1774736811304",
+      "type": "lending",
+      "protocol": "aave-v3",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "21302615",
+      "depositedUSD": 21.302615,
+      "currentValueUSD": 21.302615,
+      "balanceUSD": 21.302615,
+      "apy": 4.8,
+      "strategySlice": "B",
+      "entryDate": "2026-03-28T22:26:51.304Z",
+      "firstEntryDate": "2026-03-28T22:26:51.304Z",
+      "entryAPY": 4.8,
+      "entryTxHash": "0x18a5d2414158794998adc9e9878f85a43678254615adc9d158aee516a38e50ba",
+      "status": "exited",
+      "poolSymbol": "USDC",
+      "exitReason": "fully_withdrawn",
+      "exitDate": "2026-03-29T00:00:00.000Z"
+    },
+    {
+      "id": "aave-v3-arbitrum-USDC-1774736475541",
+      "type": "lending",
+      "protocol": "aave-v3",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "25525112",
+      "depositedUSD": 25.525112,
+      "currentValueUSD": 25.525112,
+      "balanceUSD": 25.525112,
+      "apy": 4.8,
+      "strategySlice": "B",
+      "entryDate": "2026-03-28T22:21:15.541Z",
+      "firstEntryDate": "2026-03-28T22:21:15.541Z",
+      "entryAPY": 4.8,
+      "entryTxHash": "0x1b88cf9d09b735349126399187ce6310c6e4eb57eb463e51a068a295c8537224",
+      "status": "exited",
+      "poolSymbol": "USDC",
+      "exitDate": "2026-03-29T07:30:34.722Z",
+      "exitTxHash": "0x9759c690e6a8aa65e1931cb8e796de6745a08fc7e881d5edf64d7546b473bee1"
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774865473298",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "283237893",
+      "depositedUSD": 283.237893,
+      "currentValueUSD": 283.237893,
+      "balanceUSD": 283.237893,
+      "apy": 6.14,
+      "strategySlice": "A",
+      "entryDate": "2026-03-30T10:11:13.298Z",
+      "firstEntryDate": "2026-03-30T10:11:13.298Z",
+      "entryAPY": 6.14,
+      "entryTxHash": "0xdb189858a0bdc8cf1e2d4c58384c428fe83b7ea6d7bd61175f881f5c8b6e7244",
+      "status": "exited",
+      "poolSymbol": "GHO",
+      "exitDate": "2026-03-30T21:47:36.988Z",
+      "exitReason": "manual-withdraw-rebalance-2026-03-30"
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774865795816",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "389171020",
+      "depositedUSD": 389.17102,
+      "currentValueUSD": 389.17102,
+      "balanceUSD": 389.17102,
+      "apy": 6.14,
+      "strategySlice": "A",
+      "entryDate": "2026-03-30T10:16:35.816Z",
+      "firstEntryDate": "2026-03-30T10:16:35.816Z",
+      "entryAPY": 6.14,
+      "entryTxHash": "0x3649e8ce4542dbb4470cf9523c60dc36c8c42e837b796716448551ae6d1e3198",
+      "status": "exited",
+      "poolSymbol": "GHO",
+      "exitDate": "2026-03-30T21:47:36.989Z",
+      "exitReason": "manual-withdraw-rebalance-2026-03-30"
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774866078162",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "363190648",
+      "depositedUSD": 363.190648,
+      "currentValueUSD": 363.190648,
+      "balanceUSD": 363.190648,
+      "apy": 6.14,
+      "strategySlice": "B",
+      "entryDate": "2026-03-30T10:21:18.162Z",
+      "firstEntryDate": "2026-03-30T10:21:18.162Z",
+      "entryAPY": 6.14,
+      "entryTxHash": "0x31bbe266893c3a29b3d943ee46c006fef341abd2ad1c92d02c2a83409f6e0110",
+      "status": "exited",
+      "poolSymbol": "GHO",
+      "exitDate": "2026-03-30T21:47:36.989Z",
+      "exitReason": "manual-withdraw-rebalance-2026-03-30"
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774866454369",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "98056814",
+      "depositedUSD": 98.056814,
+      "currentValueUSD": 98.056814,
+      "balanceUSD": 98.056814,
+      "apy": 6.14,
+      "strategySlice": "A",
+      "entryDate": "2026-03-30T10:27:34.369Z",
+      "firstEntryDate": "2026-03-30T10:27:34.369Z",
+      "entryAPY": 6.14,
+      "entryTxHash": "0x5e54ef9c012bda846ecd506c788c53269802e9c297b0626da1757ff2440c4736",
+      "status": "active",
+      "poolSymbol": "GHO"
+    },
+    {
+      "id": "fluid-lending-base-USDC-1774866597165",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "base",
+      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "assetSymbol": "USDC",
+      "depositedAmount": "53598150",
+      "depositedUSD": 53.59815,
+      "currentValueUSD": 53.59815,
+      "balanceUSD": 53.59815,
+      "apy": 6,
+      "strategySlice": "A",
+      "entryDate": "2026-03-30T10:29:57.165Z",
+      "firstEntryDate": "2026-03-30T10:29:57.165Z",
+      "entryAPY": 6,
+      "entryTxHash": "0x9c103a9191fc08824796af2fa0b71656d626b5d773e71ac2802cd081cac5a40b",
+      "status": "active",
+      "poolSymbol": "USDC"
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774866635926",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "70743866",
+      "depositedUSD": 70.743866,
+      "currentValueUSD": 70.743866,
+      "balanceUSD": 70.743866,
+      "apy": 6.14,
+      "strategySlice": "A",
+      "entryDate": "2026-03-30T10:30:35.926Z",
+      "firstEntryDate": "2026-03-30T10:30:35.926Z",
+      "entryAPY": 6.14,
+      "entryTxHash": "0xff94460631843a1adfbc5e4d656a7f99f8bf91a060623d93c0bf1af8772389d5",
+      "status": "active",
+      "poolSymbol": "GHO"
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774866911417",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "58004755",
+      "depositedUSD": 58.004755,
+      "currentValueUSD": 58.004755,
+      "balanceUSD": 58.004755,
+      "apy": 6.14,
+      "strategySlice": "A",
+      "entryDate": "2026-03-30T10:35:11.417Z",
+      "firstEntryDate": "2026-03-30T10:35:11.418Z",
+      "entryAPY": 6.14,
+      "entryTxHash": "0x1fe97c68b4f1d29ec422601057177ad0a879e2e2d4189e8018300374b324e69d",
+      "status": "active",
+      "poolSymbol": "GHO"
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774867091042",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "47553140",
+      "depositedUSD": 47.55314,
+      "currentValueUSD": 47.55314,
+      "balanceUSD": 47.55314,
+      "apy": 6.14,
+      "strategySlice": "A",
+      "entryDate": "2026-03-30T10:38:11.042Z",
+      "firstEntryDate": "2026-03-30T10:38:11.042Z",
+      "entryAPY": 6.14,
+      "entryTxHash": "0x18930e58fad861f71a303afe35d0c8b66c6b2a3ed3c08fd5e254c5e9bbc07d77",
+      "status": "active",
+      "poolSymbol": "GHO"
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774867559952",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "54555511",
+      "depositedUSD": 54.555511,
+      "currentValueUSD": 54.555511,
+      "balanceUSD": 54.555511,
+      "apy": 6.14,
+      "strategySlice": "B",
+      "entryDate": "2026-03-30T10:45:59.952Z",
+      "firstEntryDate": "2026-03-30T10:45:59.952Z",
+      "entryAPY": 6.14,
+      "entryTxHash": "0xbf9829bc26d0a30bcf84aef2fad42c76111506c39a4e197431e8d9dccafb6488",
+      "status": "active",
+      "poolSymbol": "GHO"
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774867728433",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "32727347",
+      "depositedUSD": 32.727347,
+      "currentValueUSD": 32.727347,
+      "balanceUSD": 32.727347,
+      "apy": 6.14,
+      "strategySlice": "B",
+      "entryDate": "2026-03-30T10:48:48.433Z",
+      "firstEntryDate": "2026-03-30T10:48:48.433Z",
+      "entryAPY": 6.14,
+      "entryTxHash": "0x92e6abc03df4dff081dd213fcc0485d56cad4712349deef7efec5ebbd10a3393",
+      "status": "active",
+      "poolSymbol": "GHO"
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774867871568",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "2611937",
+      "depositedUSD": 2.611937,
+      "currentValueUSD": 2.611937,
+      "balanceUSD": 2.611937,
+      "apy": 6.14,
+      "strategySlice": "B",
+      "entryDate": "2026-03-30T10:51:11.568Z",
+      "firstEntryDate": "2026-03-30T10:51:11.568Z",
+      "entryAPY": 6.14,
+      "entryTxHash": "0x1b10ab2b385e175139eb19b81a7fcd816d82a68ffe3d74c30a966d3cd1ba2fde",
+      "status": "active",
+      "poolSymbol": "GHO"
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774868038982",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "18580957",
+      "depositedUSD": 18.580957,
+      "currentValueUSD": 18.580957,
+      "balanceUSD": 18.580957,
+      "apy": 6.14,
+      "strategySlice": "B",
+      "entryDate": "2026-03-30T10:53:58.982Z",
+      "firstEntryDate": "2026-03-30T10:53:58.982Z",
+      "entryAPY": 6.14,
+      "entryTxHash": "0x5e1680870ffe7c192b44220a0560f7320d4ac4494bafda34e90dff2dc1092de3",
+      "status": "active",
+      "poolSymbol": "GHO"
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774869113253",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "13135050",
+      "depositedUSD": 13.13505,
+      "currentValueUSD": 13.13505,
+      "balanceUSD": 13.13505,
+      "apy": 6.14,
+      "strategySlice": "B",
+      "entryDate": "2026-03-30T11:11:53.253Z",
+      "firstEntryDate": "2026-03-30T11:11:53.253Z",
+      "entryAPY": 6.14,
+      "entryTxHash": "0xf5bb25abb2f88a81c0dc5d2ca7509e09952655b5aca4ce0901dc9dc5b22e7f17",
+      "status": "active",
+      "poolSymbol": "GHO"
+    },
+    {
+      "id": "lp-aerodrome-slipstream-base-USDC-CBBTC-1774869683518",
+      "type": "lp",
+      "protocol": "aerodrome-slipstream",
+      "chain": "base",
+      "poolAddress": "0x4e962BB3889Bf030368F56810A9c96B83CB3E778",
+      "token0": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "token1": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+      "token0Symbol": "USDC",
+      "token1Symbol": "CBBTC",
+      "tickSpacing": 100,
+      "tickLower": -69100,
+      "tickUpper": -61200,
+      "priceLower": 0.0009981025583740096,
+      "priceUpper": 0.002199128748647653,
+      "entryTick": -65153,
+      "entryValueUSD": 51.440055,
+      "pairTier": 2,
+      "gaugeAddress": "0x6399ed6725cC163D019aA64FF55b22149D7179A8",
+      "stakedInGauge": false,
+      "nftTokenId": "62071215",
+      "symbol": "USDC-CBBTC",
+      "apy": 0,
+      "strategySlice": "A",
+      "balanceUSD": 51.440055,
+      "entryDate": "2026-03-30T11:21:23.518Z",
+      "currentValueUSD": 51.440055,
+      "rebalanceCount": 0,
+      "outOfRangeSince": null,
+      "status": "exited",
+      "currentIL": -0.00014578365024053852,
+      "currentILUSD": -0.007499118986474065,
+      "gaugeRewardsAERO": 0,
+      "exitDate": "2026-03-30T22:00:13.871Z",
+      "exitReason": "closed-auto"
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774869731556",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "26456329",
+      "depositedUSD": 26.456329,
+      "currentValueUSD": 26.456329,
+      "balanceUSD": 26.456329,
+      "apy": 6.14,
+      "strategySlice": "B",
+      "entryDate": "2026-03-30T11:22:11.556Z",
+      "firstEntryDate": "2026-03-30T11:22:11.556Z",
+      "entryAPY": 6.14,
+      "entryTxHash": "0xb611d0066142be08ea626e1421f88e10d672d7d0e3770351d4a31a50e2de983b",
+      "status": "active",
+      "poolSymbol": "GHO"
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774870183830",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "556682",
+      "depositedUSD": 0.556682,
+      "currentValueUSD": 0.556682,
+      "balanceUSD": 0.556682,
+      "apy": 6.14,
+      "strategySlice": "B",
+      "entryDate": "2026-03-30T11:29:43.830Z",
+      "firstEntryDate": "2026-03-30T11:29:43.830Z",
+      "entryAPY": 6.14,
+      "entryTxHash": "0xcce627c5f65e7a38b59b9afe9e38334b50313f5fd6d75052723cb6fdecd8f8d7",
+      "status": "active",
+      "poolSymbol": "GHO"
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774870548972",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "5306702",
+      "depositedUSD": 5.306702,
+      "currentValueUSD": 5.306702,
+      "balanceUSD": 5.306702,
+      "apy": 6.14,
+      "strategySlice": "B",
+      "entryDate": "2026-03-30T11:35:48.972Z",
+      "firstEntryDate": "2026-03-30T11:35:48.972Z",
+      "entryAPY": 6.14,
+      "entryTxHash": "0x58d3944323aa834c9c35e3f1cbdaa43e38a3acac805a81c69c83fc1a33395c4c",
+      "status": "active",
+      "poolSymbol": "GHO"
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774894459933",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "25085701",
+      "depositedUSD": 25.085701,
+      "currentValueUSD": 25.085701,
+      "balanceUSD": 25.085701,
+      "apy": 6.13,
+      "strategySlice": "A",
+      "entryDate": "2026-03-30T18:14:19.933Z",
+      "firstEntryDate": "2026-03-30T18:14:19.933Z",
+      "entryAPY": 6.13,
+      "entryTxHash": "0xe7b1e4648bbb51672a59ca7dabcba5ab6a62cd2debbdf5fbd2aa5e517c8a4b39",
+      "status": "active",
+      "poolSymbol": "GHO"
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774894830418",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "21995137",
+      "depositedUSD": 21.995137,
+      "currentValueUSD": 21.995137,
+      "balanceUSD": 21.995137,
+      "apy": 6.16,
+      "strategySlice": "A",
+      "entryDate": "2026-03-30T18:20:30.418Z",
+      "firstEntryDate": "2026-03-30T18:20:30.418Z",
+      "entryAPY": 6.16,
+      "entryTxHash": "0x75d530ac07704a559a5b367efa6ab930a4d524ff4638305ce7c12a7db5812052",
+      "status": "active",
+      "poolSymbol": "GHO"
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774895404498",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "7342578",
+      "depositedUSD": 7.342578,
+      "currentValueUSD": 7.342578,
+      "balanceUSD": 7.342578,
+      "apy": 6.16,
+      "strategySlice": "A",
+      "entryDate": "2026-03-30T18:30:04.498Z",
+      "firstEntryDate": "2026-03-30T18:30:04.498Z",
+      "entryAPY": 6.16,
+      "entryTxHash": "0x19fc207bb7b159b9ec56bed65770d9691ef740f6bc99de6a943d9405b385a8ab",
+      "status": "active",
+      "poolSymbol": "GHO"
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774896660914",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "11131543",
+      "depositedUSD": 11.131543,
+      "currentValueUSD": 11.131543,
+      "balanceUSD": 11.131543,
+      "apy": 6.16,
+      "strategySlice": "A",
+      "entryDate": "2026-03-30T18:51:00.914Z",
+      "firstEntryDate": "2026-03-30T18:51:00.914Z",
+      "entryAPY": 6.16,
+      "entryTxHash": "0x143ca1a491e3a83c87d3d0548e18cbd68c675eeae3770098f5be9bcf3ccdf8ba",
+      "status": "active",
+      "poolSymbol": "GHO"
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774896918962",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "9801016",
+      "depositedUSD": 9.801016,
+      "currentValueUSD": 9.801016,
+      "balanceUSD": 9.801016,
+      "apy": 6.16,
+      "strategySlice": "A",
+      "entryDate": "2026-03-30T18:55:18.962Z",
+      "firstEntryDate": "2026-03-30T18:55:18.962Z",
+      "entryAPY": 6.16,
+      "entryTxHash": "0xfcf48fc82e37be60eca67c32f562374f2cd6905d425cb2bf45b5bc10de770407",
+      "status": "active",
+      "poolSymbol": "GHO"
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774897348069",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "25289245",
+      "depositedUSD": 25.289245,
+      "currentValueUSD": 25.289245,
+      "balanceUSD": 25.289245,
+      "apy": 6.16,
+      "strategySlice": "B",
+      "entryDate": "2026-03-30T19:02:28.069Z",
+      "firstEntryDate": "2026-03-30T19:02:28.069Z",
+      "entryAPY": 6.16,
+      "entryTxHash": "0x193fe56e5c2687f8bf03c51862303e59793943c62d209e631f471ff29627168e",
+      "status": "active",
+      "poolSymbol": "GHO"
+    },
+    {
+      "id": "lp-aerodrome-slipstream-base-USDC-CBBTC-1774902515582",
+      "status": "active",
+      "type": "lp",
+      "protocol": "aerodrome-slipstream",
+      "chain": "base",
+      "token0": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "token0Symbol": "USDC",
+      "token1": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+      "token1Symbol": "CBBTC",
+      "poolAddress": "0x4e962BB3889Bf030368F56810A9c96B83CB3E778",
+      "nftTokenId": "62170803",
+      "tickLower": -69000,
+      "tickUpper": -61000,
+      "entryValueUSD": 1030.968,
+      "depositedUSD": 1030.968,
+      "entryDate": "2026-03-30T20:28:35.583Z",
+      "strategySlice": "A",
+      "outOfRangeSince": null
+    },
+    {
+      "id": "lp-aerodrome-slipstream-base-USDC-CBBTC-1774902896267",
+      "type": "lp",
+      "protocol": "aerodrome-slipstream",
+      "chain": "base",
+      "poolAddress": "0x4e962BB3889Bf030368F56810A9c96B83CB3E778",
+      "token0": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "token1": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+      "token0Symbol": "USDC",
+      "token1Symbol": "CBBTC",
+      "tickSpacing": 100,
+      "tickLower": -69000,
+      "tickUpper": -61100,
+      "priceLower": 0.001008133151819703,
+      "priceUpper": 0.00222122924947029,
+      "entryTick": -65008,
+      "entryValueUSD": 335.808255,
+      "pairTier": 2,
+      "gaugeAddress": "0x6399ed6725cC163D019aA64FF55b22149D7179A8",
+      "stakedInGauge": false,
+      "nftTokenId": "62172514",
+      "symbol": "USDC-CBBTC",
+      "apy": 0,
+      "strategySlice": "A",
+      "balanceUSD": 335.808255,
+      "entryDate": "2026-03-30T20:34:56.267Z",
+      "currentValueUSD": 335.808255,
+      "rebalanceCount": 0,
+      "outOfRangeSince": null,
+      "status": "active",
+      "currentIL": -0.00001711076450749971,
+      "currentILUSD": -0.005745935970979411,
+      "gaugeRewardsAERO": 0
+    },
+    {
+      "id": "lp-aerodrome-slipstream-base-WETH-USDC-1774902944089",
+      "type": "lp",
+      "protocol": "aerodrome-slipstream",
+      "chain": "base",
+      "poolAddress": "0xb2cc224c1c9feE385f8ad6a55b4d94E92359DC59",
+      "token0": "0x4200000000000000000000000000000000000006",
+      "token1": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "token0Symbol": "WETH",
+      "token1Symbol": "USDC",
+      "tickSpacing": 100,
+      "tickLower": -204200,
+      "tickUpper": -196300,
+      "priceLower": 1.3556577608201523e-9,
+      "priceUpper": 2.9869334870793495e-9,
+      "entryTick": -200206,
+      "entryValueUSD": 102.181051,
+      "pairTier": 2,
+      "gaugeAddress": "0xF33a96b5932D9E9B9A0eDA447AbD8C9d48d2e0c8",
+      "stakedInGauge": false,
+      "nftTokenId": "62172709",
+      "symbol": "WETH-USDC",
+      "apy": 22.18,
+      "strategySlice": "A",
+      "balanceUSD": 102.181051,
+      "entryDate": "2026-03-30T20:35:44.089Z",
+      "currentValueUSD": 102.181051,
+      "rebalanceCount": 0,
+      "outOfRangeSince": null,
+      "status": "active",
+      "currentIL": -0.0000799914675086999,
+      "currentILUSD": -0.008173612221071307,
+      "gaugeRewardsAERO": 0
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774902975087",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "181655201",
+      "depositedUSD": 181.655201,
+      "currentValueUSD": 181.655201,
+      "balanceUSD": 181.655201,
+      "apy": 6.16,
+      "strategySlice": "B",
+      "entryDate": "2026-03-30T20:36:15.087Z",
+      "firstEntryDate": "2026-03-30T20:36:15.087Z",
+      "entryAPY": 6.16,
+      "entryTxHash": "0x63530f5cea9a6390d58265038e085f94812af8ee6cdcbc2b07bc023543f298db",
+      "status": "active",
+      "poolSymbol": "GHO"
+    },
+    {
+      "id": "lp-aerodrome-slipstream-base-USDC-CBBTC-1774907872222",
+      "type": "lp",
+      "protocol": "aerodrome-slipstream",
+      "chain": "base",
+      "poolAddress": "0x4e962BB3889Bf030368F56810A9c96B83CB3E778",
+      "token0": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "token1": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+      "token0Symbol": "USDC",
+      "token1Symbol": "CBBTC",
+      "tickSpacing": 100,
+      "tickLower": -69000,
+      "tickUpper": -61100,
+      "priceLower": 0.001008133151819703,
+      "priceUpper": 0.00222122924947029,
+      "entryTick": -65047,
+      "entryValueUSD": 39.733796,
+      "pairTier": 2,
+      "gaugeAddress": "0x6399ed6725cC163D019aA64FF55b22149D7179A8",
+      "stakedInGauge": false,
+      "nftTokenId": "62190238",
+      "symbol": "USDC-CBBTC",
+      "apy": 39.65,
+      "strategySlice": "A",
+      "balanceUSD": 39.733796,
+      "entryDate": "2026-03-30T21:57:52.222Z",
+      "currentValueUSD": 39.733796,
+      "rebalanceCount": 0,
+      "outOfRangeSince": null,
+      "status": "active",
+      "currentIL": -4.9995000361846564e-8,
+      "currentILUSD": -0.0000019864911453975375,
+      "gaugeRewardsAERO": 0
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774907900198",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "26489197",
+      "depositedUSD": 26.489197,
+      "currentValueUSD": 26.489197,
+      "balanceUSD": 26.489197,
+      "apy": 6.16,
+      "strategySlice": "B",
+      "entryDate": "2026-03-30T21:58:20.198Z",
+      "firstEntryDate": "2026-03-30T21:58:20.198Z",
+      "entryAPY": 6.16,
+      "entryTxHash": "0x646e66b03b16fc54a7435b7638643479d15ce9805c91ab2cd81b94441078d021",
+      "status": "active",
+      "poolSymbol": "GHO"
+    },
+    {
+      "id": "lp-uniswap-v3-arbitrum-WBTC-WETH-5393670",
+      "status": "active",
+      "type": "lp",
+      "protocol": "uniswap-v3",
+      "chain": "arbitrum",
+      "token0": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+      "token0Symbol": "WBTC",
+      "token1": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+      "token1Symbol": "WETH",
+      "poolAddress": "0x2f5e87C9312fa29aed5c179E456625D79015299c",
+      "nftTokenId": "5393670",
+      "tickLower": 264320,
+      "tickUpper": 266230,
+      "entryValueUSD": 68,
+      "depositedUSD": 68,
+      "currentValueUSD": 68,
+      "entryDate": "2026-01-01T00:00:00.000Z",
+      "strategySlice": "A",
+      "note": "pre-existing position"
+    }
+  ],
+  "transactions": [
+    {
+      "timestamp": "2026-03-23T08:25:07.315Z",
+      "action": "deposit",
+      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "chain": "base",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "250000250",
+        "deposited": "0",
+        "gas": "4999664958795621"
+      },
+      "estimatedGasUSD": 0.003246432,
+      "txHash": "0xcced1d22d06b9fa5c7559f9b57ba970ac0b56f929bc0856edaba69b64c194d57",
+      "gasUsed": "217905",
+      "blockNumber": 43732482,
+      "balanceAfter": {
+        "wallet": "250",
+        "deposited": "249999999",
+        "gas": "4998355889279535"
+      },
+      "status": "success",
+      "amountUSD": 250,
+      "simRecommendation": "Initial deployment: aave-v3 at 4.5% APY"
+    },
+    {
+      "timestamp": "2026-03-28T04:41:25.211Z",
+      "action": "withdraw",
+      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "chain": "base",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "250",
+        "deposited": "250081184",
+        "gas": "4998355889279535"
+      },
+      "estimatedGasUSD": 0.002703048,
+      "txHash": "0x12e0dc02a6f8a8acede019b22f54f0edda6cc38937a03137c52b5e590e95ba8f",
+      "gasUsed": "177679",
+      "blockNumber": 43941771,
+      "balanceAfter": {
+        "wallet": "250081435",
+        "deposited": "0",
+        "gas": "4997289324024886"
+      },
+      "status": "success",
+      "amountUSD": 250,
+      "simRecommendation": "Sim rotated out of aave-v3"
+    },
+    {
+      "timestamp": "2026-03-28T04:56:17.231Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "250040429",
+        "deposited": "0",
+        "gas": "2970000000000000"
+      },
+      "approvalTxHash": "0x7aa0d2921e46a79d2cc46228da650ebff9711e1252eab4ce7565171d8b0bb6db",
+      "approvalGasUsed": "55938",
+      "estimatedGasUSD": 0.00676204,
+      "txHash": "0x88693e2c048690a1aeb508e1b794df765a0596d8946a0d5e572bbc696b71fa70",
+      "gasUsed": "127767",
+      "blockNumber": 446430542,
+      "balanceAfter": {
+        "wallet": "0",
+        "deposited": "250040430",
+        "gas": "2966322655596000"
+      },
+      "status": "success",
+      "amountUSD": 250.040429,
+      "simRecommendation": "Lending deployment: fluid-lending at 6.7% APY"
+    },
+    {
+      "timestamp": "2026-03-28T05:04:48.958Z",
+      "action": "withdraw",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "0",
+        "deposited": "250040639",
+        "gas": "2966322655596000"
+      },
+      "estimatedGasUSD": 0.006362325792,
+      "txHash": "0x2cfd5f23d8b3e23b90310f5afc0d79a82844efb3d5041e44d9f4ed17775e6e27",
+      "gasUsed": "119458",
+      "blockNumber": 446432579,
+      "balanceAfter": {
+        "wallet": "250040640",
+        "deposited": "0",
+        "gas": "2963931584268000"
+      },
+      "status": "success",
+      "amountUSD": 250.040429,
+      "simRecommendation": "Rebalance: A/B redistribution"
+    },
+    {
+      "timestamp": "2026-03-28T05:07:33.571Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "250040640",
+        "deposited": "0",
+        "gas": "2963931584268000"
+      },
+      "estimatedGasUSD": 0.006774665976,
+      "txHash": "0x20704189ea59482bbd37f4dbd5938810a4ce7db991789908bbcae064dc5795c3",
+      "gasUsed": "127717",
+      "blockNumber": 446433235,
+      "balanceAfter": {
+        "wallet": "0",
+        "deposited": "250040641",
+        "gas": "2961370092116000"
+      },
+      "status": "success",
+      "amountUSD": 250.04064,
+      "simRecommendation": "Lending deployment: fluid-lending at 6.7% APY"
+    },
+    {
+      "timestamp": "2026-03-28T05:09:59.950Z",
+      "action": "withdraw",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "0",
+        "deposited": "250040698",
+        "gas": "2961370092116000"
+      },
+      "estimatedGasUSD": 0.006368683032,
+      "txHash": "0x5a491643aa9dc5fedc08106d38c8e25314dad2660e7460b47fd2048751fe6a58",
+      "gasUsed": "119457",
+      "blockNumber": 446433821,
+      "balanceAfter": {
+        "wallet": "250040700",
+        "deposited": "0",
+        "gas": "2958973067954000"
+      },
+      "status": "success",
+      "amountUSD": 250.04064,
+      "simRecommendation": "Rebalance: A/B redistribution"
+    },
+    {
+      "timestamp": "2026-03-28T05:19:08.009Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "250040700",
+        "deposited": "0",
+        "gas": "2958973067954000"
+      },
+      "estimatedGasUSD": 0.00678912,
+      "txHash": "0x191a3b0c11fc3dc061ff7a4354700212985737478cefeb4ee458de84a2d911c0",
+      "gasUsed": "132537",
+      "blockNumber": 446436012,
+      "balanceAfter": {
+        "wallet": "100016280",
+        "deposited": "150024420",
+        "gas": "2956316761400000"
+      },
+      "status": "success",
+      "amountUSD": 150.02442,
+      "simRecommendation": "Strategy A: fluid-lending at 6.7% APY"
+    },
+    {
+      "timestamp": "2026-03-28T06:45:00.832Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "40000216",
+        "deposited": "50024857",
+        "gas": "2925140553422000"
+      },
+      "estimatedGasUSD": 0.005962286016,
+      "txHash": "0xe928d3c49896c862c367a64b863d01032676c13471d58fe8cd77f2b5b264fe06",
+      "gasUsed": "115444",
+      "blockNumber": 446456627,
+      "balanceAfter": {
+        "wallet": "16000086",
+        "deposited": "74024987",
+        "gas": "2922829826318000"
+      },
+      "status": "success",
+      "amountUSD": 24.00013,
+      "simRecommendation": "Strategy A: fluid-lending at 6.7% APY (adding to position)"
+    },
+    {
+      "timestamp": "2026-03-28T08:47:36.455Z",
+      "action": "withdraw",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "0",
+        "deposited": "74025902",
+        "gas": "2921350210242000"
+      },
+      "estimatedGasUSD": 0.006355680000000001,
+      "txHash": "0xb38fa1273c196b04baeaa1786d1d01816d4f23f7aed097116b1cc31add7b45d6",
+      "gasUsed": "119422",
+      "blockNumber": 446486050,
+      "balanceAfter": {
+        "wallet": "74025902",
+        "deposited": "0",
+        "gas": "2918954366078000"
+      },
+      "status": "success",
+      "amountUSD": 50.02388039999998,
+      "simRecommendation": "Rebalance: fluid-lending 6.7% → jupiter-lend 10.0% (+3.3% abs, +50% rel)"
+    },
+    {
+      "timestamp": "2026-03-28T09:05:11.334Z",
+      "action": "deposit",
+      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "chain": "base",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "60397162",
+        "deposited": "0",
+        "gas": "1994159089024988"
+      },
+      "estimatedGasUSD": 0.0020328599999999996,
+      "txHash": "0xf365896a71c88ff54a23f8e0efd412a7ed38d5f39c3adf5524b4f8a4e558880f",
+      "gasUsed": "132312",
+      "blockNumber": 43949685,
+      "warning": "Post-tx balance read failed: missing revert data (action=\"call\", data=null, reason=null, transaction={ \"data\": \"0x70a08231000000000000000000000000569ec506f168ae218a3fe7b1caa9354a4908ed9a\", \"from\": \"0x569EC506f168AE218a3fE7b1CaA9354a4908eD9A\", \"to\": \"0xf42f5795D9ac7e9D757dB633D693cD548Cfd9169\" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)",
+      "status": "success",
+      "amountUSD": 18.503546,
+      "simRecommendation": "Strategy A[1/3]: fluid-lending at 6.6% APY"
+    },
+    {
+      "timestamp": "2026-03-28T09:19:50.297Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "28350388",
+        "deposited": "0",
+        "gas": "2912645870282000"
+      },
+      "estimatedGasUSD": 0.00679127232,
+      "txHash": "0xe00c30cdf0606f1467c626219219b142fde6dcbfa4dff847a67e9679cadcaed9",
+      "gasUsed": "132501",
+      "blockNumber": 446493787,
+      "balanceAfter": {
+        "wallet": "17630284",
+        "deposited": "10720103",
+        "gas": "2909989755236000"
+      },
+      "status": "success",
+      "amountUSD": 10.720104,
+      "simRecommendation": "Strategy A[2/3]: fluid-lending at 6.3% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-28T09:30:12.170Z",
+      "action": "withdraw",
+      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "chain": "base",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "0",
+        "deposited": "79986400",
+        "gas": "1991064591649965"
+      },
+      "estimatedGasUSD": 0.0029531880000000003,
+      "txHash": "0x4f6afd51fe496abce5d99a22f11ba6a61f2e39b4539532e4eadf026af8d018cc",
+      "gasUsed": "194779",
+      "blockNumber": 43950435,
+      "warning": "Post-tx balance read failed: missing revert data (action=\"call\", data=null, reason=null, transaction={ \"data\": \"0x70a08231000000000000000000000000569ec506f168ae218a3fe7b1caa9354a4908ed9a\", \"from\": \"0x569EC506f168AE218a3fE7b1CaA9354a4908eD9A\", \"to\": \"0x4e65fE4DbA92790696d040ac24Aa414708F5c0AB\" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)",
+      "status": "success",
+      "amountUSD": 79.985521,
+      "simRecommendation": "Sim rotated out of aave-v3"
+    },
+    {
+      "timestamp": "2026-03-28T09:33:55.503Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "46200988",
+        "deposited": "10720119",
+        "gas": "2909989755236000"
+      },
+      "estimatedGasUSD": 0.0059699674519999996,
+      "txHash": "0x68dfb06a8f274fed55ee0634f528be8d598163cfa56254f27b27382693cf2548",
+      "gasUsed": "115252",
+      "blockNumber": 446497172,
+      "balanceAfter": {
+        "wallet": "34203028",
+        "deposited": "22718079",
+        "gas": "2907675956084000"
+      },
+      "status": "success",
+      "amountUSD": 11.99796,
+      "simRecommendation": "Strategy A[2/3]: fluid-lending at 6.3% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-28T09:39:51.693Z",
+      "action": "withdraw",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "74184921",
+        "deposited": "19991556",
+        "gas": "2907675956084000"
+      },
+      "estimatedGasUSD": 0.009123421628,
+      "txHash": "0xda28730cf5bb07c2e5452b734718f2ca335f0d1c7f85facf71bb0aa7f71c1458",
+      "gasUsed": "179613",
+      "blockNumber": 446498595,
+      "balanceAfter": {
+        "wallet": "94176477",
+        "deposited": "0",
+        "gas": "2904076511564000"
+      },
+      "status": "success",
+      "amountUSD": 19.991408,
+      "simRecommendation": "Sim rotated out of aave-v3"
+    },
+    {
+      "timestamp": "2026-03-28T09:56:07.087Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "32270962",
+        "deposited": "22718130",
+        "gas": "2902604272236000"
+      },
+      "estimatedGasUSD": 0.005960170128,
+      "txHash": "0x9063186f26ccb0832ba78f8ee62f19c0f496b6bdc4e6e0c22caddb10222fa6de",
+      "gasUsed": "115251",
+      "blockNumber": 446502500,
+      "balanceAfter": {
+        "wallet": "9971814",
+        "deposited": "45017278",
+        "gas": "2900296255710000"
+      },
+      "status": "success",
+      "amountUSD": 22.299148,
+      "simRecommendation": "Strategy A[2/3]: fluid-lending at 6.3% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-28T09:58:28.866Z",
+      "action": "deposit",
+      "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "chain": "ethereum",
+      "protocol": "fluid-lending",
+      "status": "rejected",
+      "reason": "Chain \"ethereum\" not in enabled chains",
+      "amountUSD": 126.322506,
+      "simRecommendation": "Strategy A[1/3]: fluid-lending at 5.4% APY (consolidated A+B — no distinct B pool available)"
+    },
+    {
+      "timestamp": "2026-03-28T09:58:29.304Z",
+      "action": "deposit",
+      "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "chain": "ethereum",
+      "protocol": "fluid-lending",
+      "status": "rejected",
+      "reason": "Chain \"ethereum\" not in enabled chains",
+      "amountUSD": 23.68547,
+      "simRecommendation": "Strategy A[2/3]: fluid-lending at 4.9% APY"
+    },
+    {
+      "timestamp": "2026-03-28T10:04:29.762Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "59437312",
+        "deposited": "0",
+        "gas": "2900296255710000"
+      },
+      "estimatedGasUSD": 0.01001112,
+      "txHash": "0xaa6b1f9d729d1a61b62f71ca06887ca75d91ba7d933ef72138c6dce13ab6f13f",
+      "gasUsed": "202962",
+      "blockNumber": 446504508,
+      "balanceAfter": {
+        "wallet": "28904808",
+        "deposited": "30532503",
+        "gas": "2896198047006000"
+      },
+      "status": "success",
+      "amountUSD": 30.532504,
+      "simRecommendation": "Strategy B: aave-v3 at 4.8% APY"
+    },
+    {
+      "timestamp": "2026-03-28T10:13:05.446Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "28904808",
+        "deposited": "30532511",
+        "gas": "2896198047006000"
+      },
+      "estimatedGasUSD": 0.008800879999999999,
+      "txHash": "0x55339ca0e77ab192ff499105645fa1be3c73fcc6813de6a897326da9283be3a5",
+      "gasUsed": "178151",
+      "blockNumber": 446506573,
+      "balanceAfter": {
+        "wallet": "11734017",
+        "deposited": "47703302",
+        "gas": "2892634314402000"
+      },
+      "status": "success",
+      "amountUSD": 17.170791,
+      "simRecommendation": "Strategy A[1/3]: aave-v3 at 4.8% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-28T11:26:41.421Z",
+      "action": "deposit",
+      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "chain": "base",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "17881794",
+        "deposited": "0",
+        "gas": "1985654640795578"
+      },
+      "estimatedGasUSD": 0.0029709479999999997,
+      "txHash": "0x7ba66c328092ea6f348816e7f1d231921c498e89554748cc6bb9221adf3d6aa6",
+      "gasUsed": "200793",
+      "blockNumber": 43953930,
+      "balanceAfter": {
+        "wallet": "11444348",
+        "deposited": "6437445",
+        "gas": "1984449482335463"
+      },
+      "status": "success",
+      "amountUSD": 6.437446,
+      "simRecommendation": "Strategy A[2/3]: aave-v3 at 4.5% APY"
+    },
+    {
+      "timestamp": "2026-03-28T11:28:59.608Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "19027403",
+        "deposited": "47703411",
+        "gas": "2889586379042000"
+      },
+      "estimatedGasUSD": 0.008810121320000001,
+      "txHash": "0xefdd5023dfe83103a485cb6d95112490e5b26b64e3430d19691bb81c88592514",
+      "gasUsed": "178155",
+      "blockNumber": 446524794,
+      "balanceAfter": {
+        "wallet": "10715066",
+        "deposited": "56015748",
+        "gas": "2886013302362000"
+      },
+      "status": "success",
+      "amountUSD": 8.312337,
+      "simRecommendation": "Strategy A[1/3]: aave-v3 at 4.8% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-28T11:45:03.589Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "19861860",
+        "deposited": "56015775",
+        "gas": "2882811599222000"
+      },
+      "estimatedGasUSD": 0.008828844836,
+      "txHash": "0x75b6c59da440ed9d2c31d233209205397ebee1245834f03bb64a62a014b50e30",
+      "gasUsed": "173361",
+      "blockNumber": 446528647,
+      "balanceAfter": {
+        "wallet": "0",
+        "deposited": "75877635",
+        "gas": "2879337098060000"
+      },
+      "status": "success",
+      "amountUSD": 19.86186,
+      "simRecommendation": "Strategy A[1/3]: aave-v3 at 4.8% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-28T14:09:48.971Z",
+      "action": "withdraw",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "0",
+        "deposited": "75877971",
+        "gas": "2879337098060000"
+      },
+      "estimatedGasUSD": 0.00998941608,
+      "txHash": "0x50f01fe260507dc1679c6e225406f769f0664abc785311a1e0f518dd824f01d9",
+      "gasUsed": "196901",
+      "blockNumber": 446563409,
+      "balanceAfter": {
+        "wallet": "75877972",
+        "deposited": "0",
+        "gas": "2875385294990000"
+      },
+      "status": "success",
+      "amountUSD": 30.532504,
+      "simRecommendation": "Rebalance: aave-v3 4.8% → jupiter-lend 10.0% (+5.2% abs, +109% rel)"
+    },
+    {
+      "timestamp": "2026-03-28T14:15:07.785Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "75877972",
+        "deposited": "0",
+        "gas": "2875385294990000"
+      },
+      "estimatedGasUSD": 0.010029640000000001,
+      "txHash": "0x61468d0332a952b135b597138d2b33ef39182ee28ca782f65545a1f931073ae2",
+      "gasUsed": "203266",
+      "blockNumber": 446564687,
+      "balanceAfter": {
+        "wallet": "47423732",
+        "deposited": "28454239",
+        "gas": "2871300054922000"
+      },
+      "status": "success",
+      "amountUSD": 28.45424,
+      "simRecommendation": "Strategy A[1/3]: aave-v3 at 4.8% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-28T14:31:24.899Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "6393613",
+        "deposited": "28454253",
+        "gas": "2867634974922000"
+      },
+      "estimatedGasUSD": 0.00881736,
+      "txHash": "0x06d3ae8b8bed0ad7b1d2a5271fbae460304b5774b33a970f6e8d89f78ce11952",
+      "gasUsed": "173618",
+      "blockNumber": 446568596,
+      "balanceAfter": {
+        "wallet": "0",
+        "deposited": "34847866",
+        "gas": "2864152545078000"
+      },
+      "status": "success",
+      "amountUSD": 6.393613,
+      "simRecommendation": "Strategy A[1/3]: aave-v3 at 4.8% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-28T14:47:02.406Z",
+      "action": "withdraw",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "0",
+        "deposited": "34847882",
+        "gas": "2864152545078000"
+      },
+      "estimatedGasUSD": 0.009957060732,
+      "txHash": "0x446059387ea3098d1b0616fa45bb52a2b8f1e4e5a8325899a59918a4eff787df",
+      "gasUsed": "196814",
+      "blockNumber": 446572344,
+      "balanceAfter": {
+        "wallet": "34847882",
+        "deposited": "0",
+        "gas": "2860216265078000"
+      },
+      "status": "success",
+      "amountUSD": 17.170791,
+      "simRecommendation": "Rebalance: aave-v3 4.8% → jupiter-lend 10.0% (+5.2% abs, +109% rel)"
+    },
+    {
+      "timestamp": "2026-03-28T14:52:20.445Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "34847882",
+        "deposited": "0",
+        "gas": "2860216265078000"
+      },
+      "estimatedGasUSD": 0.010032541895999999,
+      "txHash": "0x94039d246bace0cdd5dffa93dc0b9ccc9685ae712f24b22403929740a7a37085",
+      "gasUsed": "202934",
+      "blockNumber": 446573620,
+      "balanceAfter": {
+        "wallet": "21779926",
+        "deposited": "13067955",
+        "gas": "2856154338134000"
+      },
+      "status": "success",
+      "amountUSD": 13.067956,
+      "simRecommendation": "Strategy A[1/3]: aave-v3 at 4.8% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-28T18:10:37.816Z",
+      "action": "withdraw",
+      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "chain": "base",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "7836909",
+        "deposited": "6437566",
+        "gas": "480563705237570"
+      },
+      "estimatedGasUSD": 0.002703048,
+      "txHash": "0x8668694244bef6dcdf3de0ff1c1462805bb3989282bd6c1bfb103f8ffe7791a2",
+      "gasUsed": "177679",
+      "blockNumber": 43966048,
+      "balanceAfter": {
+        "wallet": "14274475",
+        "deposited": "0",
+        "gas": "479496487948638"
+      },
+      "status": "success",
+      "amountUSD": 6.437446,
+      "simRecommendation": "Rebalance: aave-v3 4.5% → jupiter-lend 10.0% (+5.5% abs, +123% rel)"
+    },
+    {
+      "timestamp": "2026-03-28T18:15:56.968Z",
+      "action": "withdraw",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "0",
+        "deposited": "13068036",
+        "gas": "2852502133544000"
+      },
+      "estimatedGasUSD": 0.009979689719999999,
+      "txHash": "0x644af8d591d165b7d990b1e4ea77aef1ddefd7e5a150ded708475051a32ed6c8",
+      "gasUsed": "197195",
+      "blockNumber": 446622534,
+      "balanceAfter": {
+        "wallet": "13068036",
+        "deposited": "0",
+        "gas": "2848551528914000"
+      },
+      "status": "success",
+      "amountUSD": 8.312337,
+      "simRecommendation": "Rebalance: aave-v3 4.8% → jupiter-lend 10.0% (+5.2% abs, +109% rel)"
+    },
+    {
+      "timestamp": "2026-03-28T18:21:33.058Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "17962071",
+        "deposited": "0",
+        "gas": "2848551528914000"
+      },
+      "estimatedGasUSD": 0.010042044104,
+      "txHash": "0x2f1294666dfeab07c3776e322cbd75602afcdad52df7279bf374d048acffa50c",
+      "gasUsed": "203451",
+      "blockNumber": 446623880,
+      "balanceAfter": {
+        "wallet": "13061557",
+        "deposited": "4900513",
+        "gas": "2844467453540000"
+      },
+      "status": "success",
+      "amountUSD": 4.900514,
+      "simRecommendation": "Strategy A[1/3]: aave-v3 at 4.8% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-28T18:37:10.202Z",
+      "action": "withdraw",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "0",
+        "deposited": "4900515",
+        "gas": "2842376820620000"
+      },
+      "estimatedGasUSD": 0.009971019024,
+      "txHash": "0x607ca09b3e0c51c00468b861d215937c7f59da54098b17b85a81ec7ab9743a8b",
+      "gasUsed": "197119",
+      "blockNumber": 446627631,
+      "balanceAfter": {
+        "wallet": "4900515",
+        "deposited": "0",
+        "gas": "2838433652144000"
+      },
+      "status": "success",
+      "amountUSD": 19.86186,
+      "simRecommendation": "Rebalance: aave-v3 4.8% → jupiter-lend 10.0% (+5.2% abs, +109% rel)"
+    },
+    {
+      "timestamp": "2026-03-28T20:00:59.331Z",
+      "action": "deposit",
+      "asset": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "chain": "solana",
+      "protocol": "jupiter-lend",
+      "balanceBefore": {
+        "wallet": "68066964",
+        "deposited": "0",
+        "gas": "479026456204076"
+      },
+      "status": "build_failed",
+      "error": "fetch failed",
+      "amountUSD": 68.066964,
+      "simRecommendation": "Rebalance → jupiter-lend @ 10.0% APY on Solana"
+    },
+    {
+      "timestamp": "2026-03-28T22:21:07.600Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "30416272",
+        "deposited": "0",
+        "gas": "2838433652144000"
+      },
+      "estimatedGasUSD": 0.01004628,
+      "txHash": "0x1b88cf9d09b735349126399187ce6310c6e4eb57eb463e51a068a295c8537224",
+      "gasUsed": "203542",
+      "blockNumber": 446680689,
+      "balanceAfter": {
+        "wallet": "4891160",
+        "deposited": "25525111",
+        "gas": "2834360369640000"
+      },
+      "status": "success",
+      "amountUSD": 25.525112,
+      "simRecommendation": "Strategy A[1/3]: aave-v3 at 4.8% APY"
+    },
+    {
+      "timestamp": "2026-03-28T22:26:41.076Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "26185015",
+        "deposited": "25525115",
+        "gas": "2834360369640000"
+      },
+      "estimatedGasUSD": 0.008870177808,
+      "txHash": "0x18a5d2414158794998adc9e9878f85a43678254615adc9d158aee516a38e50ba",
+      "gasUsed": "178652",
+      "blockNumber": 446681986,
+      "balanceAfter": {
+        "wallet": "4882400",
+        "deposited": "46827730",
+        "gas": "2830787329640000"
+      },
+      "status": "success",
+      "amountUSD": 21.302615,
+      "simRecommendation": "Strategy A[1/3]: aave-v3 at 4.8% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-28T22:32:21.241Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "18185611",
+        "deposited": "46827737",
+        "gas": "2830787329640000"
+      },
+      "estimatedGasUSD": 0.00883928,
+      "txHash": "0x265dfa3a45270f6d09c3f3083c75ccf9e7c1ddde758894c74d4df8f9bfc683f0",
+      "gasUsed": "178779",
+      "blockNumber": 446683328,
+      "balanceAfter": {
+        "wallet": "4874762",
+        "deposited": "60138587",
+        "gas": "2827209246734000"
+      },
+      "status": "success",
+      "amountUSD": 13.310849,
+      "simRecommendation": "Strategy A[1/3]: aave-v3 at 4.8% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-28T22:37:57.328Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "13184253",
+        "deposited": "60138597",
+        "gas": "2827209246734000"
+      },
+      "estimatedGasUSD": 0.008840341024,
+      "txHash": "0xd35e0c0944689342b3918750a4fb4d0257fad3a11f1f01ae2819a424c9496200",
+      "gasUsed": "178710",
+      "blockNumber": 446684636,
+      "balanceAfter": {
+        "wallet": "4867836",
+        "deposited": "68455013",
+        "gas": "2823633974474000"
+      },
+      "status": "success",
+      "amountUSD": 8.316417,
+      "simRecommendation": "Strategy A[1/3]: aave-v3 at 4.8% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-28T22:43:33.913Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "aave-v3",
+      "balanceBefore": {
+        "wallet": "10056515",
+        "deposited": "68455025",
+        "gas": "2823633974474000"
+      },
+      "estimatedGasUSD": 0.00898699848,
+      "txHash": "0x5fc6335d1e9547a05a7cc2345bc432e6d213d196ffba7bcf42d7e48fa21a4f8c",
+      "gasUsed": "178809",
+      "blockNumber": 446685953,
+      "balanceAfter": {
+        "wallet": "4861352",
+        "deposited": "73650188",
+        "gas": "2820048496406000"
+      },
+      "status": "success",
+      "amountUSD": 5.195163,
+      "simRecommendation": "Strategy A[1/3]: aave-v3 at 4.8% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-29T07:30:55.376Z",
+      "action": "deposit",
+      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "chain": "base",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "25880311",
+        "deposited": "18505375",
+        "gas": "475373475220778"
+      },
+      "estimatedGasUSD": 0.00178428,
+      "txHash": "0x2f61694b1b0af7aefc2642e8bfb58fbd059c65ad7685b252573f89df43030651",
+      "gasUsed": "115286",
+      "blockNumber": 43990057,
+      "balanceAfter": {
+        "wallet": "3784898",
+        "deposited": "40600788",
+        "gas": "474680614928700"
+      },
+      "status": "success",
+      "amountUSD": 22.095413,
+      "simRecommendation": "Strategy A[1/3]: fluid-lending at 6.4% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-29T07:33:50.267Z",
+      "action": "deposit",
+      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "chain": "base",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "21840266",
+        "deposited": "40600795",
+        "gas": "474680614928700"
+      },
+      "estimatedGasUSD": 0.00178428,
+      "txHash": "0x9a8358cbc762317d300b8d41c4a1a7f8627cbdb2b5bd03631ef82132bb1d13ae",
+      "gasUsed": "115286",
+      "blockNumber": 43990144,
+      "balanceAfter": {
+        "wallet": "3779601",
+        "deposited": "58661460",
+        "gas": "473987985569591"
+      },
+      "status": "success",
+      "amountUSD": 18.060665,
+      "simRecommendation": "Strategy A[1/3]: fluid-lending at 6.4% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-29T07:39:25.375Z",
+      "action": "deposit",
+      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "chain": "base",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "16415951",
+        "deposited": "58661482",
+        "gas": "473987985569591"
+      },
+      "estimatedGasUSD": 0.0017841119999999998,
+      "txHash": "0xf0f29332780fe75e724301ddf771b5fb2ed44fc2fce54424a2d45bc06d69a99c",
+      "gasUsed": "115274",
+      "blockNumber": 43990312,
+      "balanceAfter": {
+        "wallet": "3775075",
+        "deposited": "71302358",
+        "gas": "473295291493724"
+      },
+      "status": "success",
+      "amountUSD": 12.640876,
+      "simRecommendation": "Strategy A[1/3]: fluid-lending at 6.4% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-29T07:45:00.288Z",
+      "action": "deposit",
+      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "chain": "base",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "12618345",
+        "deposited": "71302384",
+        "gas": "473295291493724"
+      },
+      "estimatedGasUSD": 0.0017841119999999998,
+      "txHash": "0x15530809c8efe48c87190e81adbed86bc2103eb36cedae781b6acbc7f52d1d2d",
+      "gasUsed": "115274",
+      "blockNumber": 43990479,
+      "balanceAfter": {
+        "wallet": "3771090",
+        "deposited": "80149639",
+        "gas": "472602795714634"
+      },
+      "status": "success",
+      "amountUSD": 8.847255,
+      "simRecommendation": "Strategy A[1/3]: fluid-lending at 6.4% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-29T07:50:36.555Z",
+      "action": "deposit",
+      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "chain": "base",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "9959362",
+        "deposited": "80149670",
+        "gas": "472602795714634"
+      },
+      "estimatedGasUSD": 0.001783896,
+      "txHash": "0xd6e3fcf8c1d805cd313251bfa21d58f388ab3a0d39ac04d42d888fc2be3d4797",
+      "gasUsed": "115260",
+      "blockNumber": 43990648,
+      "balanceAfter": {
+        "wallet": "3767479",
+        "deposited": "86341554",
+        "gas": "471910088399980"
+      },
+      "status": "success",
+      "amountUSD": 6.191883,
+      "simRecommendation": "Strategy A[1/3]: fluid-lending at 6.4% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-29T07:56:14.669Z",
+      "action": "deposit",
+      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "chain": "base",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "8097363",
+        "deposited": "86341586",
+        "gas": "471910088399980"
+      },
+      "estimatedGasUSD": 0.001783836,
+      "txHash": "0x6a7319a169734cbe1d1e4e6d05248cc7de0fb6d5cb49809089e2ee65e27b838c",
+      "gasUsed": "115256",
+      "blockNumber": 43990817,
+      "balanceAfter": {
+        "wallet": "3764128",
+        "deposited": "90674822",
+        "gas": "471217290786104"
+      },
+      "status": "success",
+      "amountUSD": 4.333235,
+      "simRecommendation": "Strategy A[1/3]: fluid-lending at 6.4% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-29T08:01:52.437Z",
+      "action": "deposit",
+      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "chain": "base",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "6793223",
+        "deposited": "90674856",
+        "gas": "471217290786104"
+      },
+      "estimatedGasUSD": 0.001784748,
+      "txHash": "0x3ebe6ccacc7dba65cd82e00bb28035d5d42d39b221b37e590bbd3ead451a3ad0",
+      "gasUsed": "115318",
+      "blockNumber": 43990986,
+      "balanceAfter": {
+        "wallet": "3760964",
+        "deposited": "93707116",
+        "gas": "470524454641226"
+      },
+      "status": "success",
+      "amountUSD": 3.032259,
+      "simRecommendation": "Strategy A[1/3]: fluid-lending at 6.4% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-30T10:11:04.699Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "286502960",
+        "deposited": "45029498",
+        "gas": "2805292392346000"
+      },
+      "estimatedGasUSD": 0.00597676,
+      "txHash": "0xdb189858a0bdc8cf1e2d4c58384c428fe83b7ea6d7bd61175f881f5c8b6e7244",
+      "gasUsed": "115753",
+      "blockNumber": 447193628,
+      "balanceAfter": {
+        "wallet": "3265067",
+        "deposited": "328267393",
+        "gas": "2802977332346000"
+      },
+      "status": "success",
+      "amountUSD": 283.237893,
+      "simRecommendation": "Strategy A[2/3]: fluid-lending at 6.1% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-30T10:16:26.107Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "1021697248",
+        "deposited": "328267558",
+        "gas": "2802977332346000"
+      },
+      "estimatedGasUSD": 0.005987894156,
+      "txHash": "0x3649e8ce4542dbb4470cf9523c60dc36c8c42e837b796716448551ae6d1e3198",
+      "gasUsed": "115806",
+      "blockNumber": 447194911,
+      "balanceAfter": {
+        "wallet": "632526228",
+        "deposited": "717438585",
+        "gas": "2800660054286000"
+      },
+      "status": "success",
+      "amountUSD": 389.17102,
+      "simRecommendation": "Strategy A[1/3]: fluid-lending at 6.1% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-30T10:21:08.371Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "788166668",
+        "deposited": "717438901",
+        "gas": "2800660054286000"
+      },
+      "estimatedGasUSD": 0.005998027584,
+      "txHash": "0x31bbe266893c3a29b3d943ee46c006fef341abd2ad1c92d02c2a83409f6e0110",
+      "gasUsed": "115818",
+      "blockNumber": 447196041,
+      "balanceAfter": {
+        "wallet": "424976020",
+        "deposited": "1080629560",
+        "gas": "2798325163406000"
+      },
+      "status": "success",
+      "amountUSD": 363.190648,
+      "simRecommendation": "Strategy B: fluid-lending at 6.1% APY"
+    },
+    {
+      "timestamp": "2026-03-30T10:27:25.886Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "359577403",
+        "deposited": "1080630201",
+        "gas": "2796733258830000"
+      },
+      "estimatedGasUSD": 0.005974200000000001,
+      "txHash": "0x5e54ef9c012bda846ecd506c788c53269802e9c297b0626da1757ff2440c4736",
+      "gasUsed": "115709",
+      "blockNumber": 447197547,
+      "balanceAfter": {
+        "wallet": "261520589",
+        "deposited": "1178687027",
+        "gas": "2794419078830000"
+      },
+      "status": "success",
+      "amountUSD": 98.056814,
+      "simRecommendation": "Strategy A[2/3]: fluid-lending at 6.1% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-30T10:29:43.054Z",
+      "action": "deposit",
+      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "chain": "base",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "187561233",
+        "deposited": "93717236",
+        "gas": "462743152989668"
+      },
+      "estimatedGasUSD": 0.001784028,
+      "txHash": "0x9c103a9191fc08824796af2fa0b71656d626b5d773e71ac2802cd081cac5a40b",
+      "gasUsed": "115268",
+      "blockNumber": 44038621,
+      "balanceAfter": {
+        "wallet": "133963083",
+        "deposited": "147315388",
+        "gas": "462050428374800"
+      },
+      "status": "success",
+      "amountUSD": 53.59815,
+      "simRecommendation": "Strategy A[3/3]: fluid-lending at 6.0% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-30T10:30:26.037Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "141152069",
+        "deposited": "1178687361",
+        "gas": "2789631895626000"
+      },
+      "estimatedGasUSD": 0.00597897936,
+      "txHash": "0xff94460631843a1adfbc5e4d656a7f99f8bf91a060623d93c0bf1af8772389d5",
+      "gasUsed": "115709",
+      "blockNumber": 447198266,
+      "balanceAfter": {
+        "wallet": "70408203",
+        "deposited": "1249431245",
+        "gas": "2787315401446000"
+      },
+      "status": "success",
+      "amountUSD": 70.743866,
+      "simRecommendation": "Strategy A[2/3]: fluid-lending at 6.1% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-30T10:35:02.933Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "81236277",
+        "deposited": "1249431787",
+        "gas": "2785727016054000"
+      },
+      "estimatedGasUSD": 0.00597864,
+      "txHash": "0x1fe97c68b4f1d29ec422601057177ad0a879e2e2d4189e8018300374b324e69d",
+      "gasUsed": "115784",
+      "blockNumber": 447199374,
+      "balanceAfter": {
+        "wallet": "23231522",
+        "deposited": "1307436554",
+        "gas": "2783411336054000"
+      },
+      "status": "success",
+      "amountUSD": 58.004755,
+      "simRecommendation": "Strategy A[2/3]: fluid-lending at 6.1% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-30T10:38:01.175Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "88680908",
+        "deposited": "1307436919",
+        "gas": "2780235030262000"
+      },
+      "estimatedGasUSD": 0.0059936302720000004,
+      "txHash": "0x18930e58fad861f71a303afe35d0c8b66c6b2a3ed3c08fd5e254c5e9bbc07d77",
+      "gasUsed": "115792",
+      "blockNumber": 447200090,
+      "balanceAfter": {
+        "wallet": "41127768",
+        "deposited": "1354990078",
+        "gas": "2777916179670000"
+      },
+      "status": "success",
+      "amountUSD": 47.55314,
+      "simRecommendation": "Strategy A[2/3]: fluid-lending at 6.1% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-30T10:45:51.454Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "70922165",
+        "deposited": "1354991083",
+        "gas": "2774746820610000"
+      },
+      "estimatedGasUSD": 0.00598081776,
+      "txHash": "0xbf9829bc26d0a30bcf84aef2fad42c76111506c39a4e197431e8d9dccafb6488",
+      "gasUsed": "115615",
+      "blockNumber": 447201968,
+      "balanceAfter": {
+        "wallet": "16366654",
+        "deposited": "1409546612",
+        "gas": "2772425040180000"
+      },
+      "status": "success",
+      "amountUSD": 54.555511,
+      "simRecommendation": "Strategy B: fluid-lending at 6.1% APY"
+    },
+    {
+      "timestamp": "2026-03-30T10:48:38.586Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "58894453",
+        "deposited": "1409546975",
+        "gas": "2772425040180000"
+      },
+      "estimatedGasUSD": 0.00596888,
+      "txHash": "0x92e6abc03df4dff081dd213fcc0485d56cad4712349deef7efec5ebbd10a3393",
+      "gasUsed": "115615",
+      "blockNumber": 447202635,
+      "balanceAfter": {
+        "wallet": "26167106",
+        "deposited": "1442274340",
+        "gas": "2770103259750000"
+      },
+      "status": "success",
+      "amountUSD": 32.727347,
+      "simRecommendation": "Strategy B: fluid-lending at 6.1% APY"
+    },
+    {
+      "timestamp": "2026-03-30T10:51:01.769Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "2611937",
+        "deposited": "1442274654",
+        "gas": "2766941235558000"
+      },
+      "estimatedGasUSD": 0.0059509129999999995,
+      "txHash": "0x1b10ab2b385e175139eb19b81a7fcd816d82a68ffe3d74c30a966d3cd1ba2fde",
+      "gasUsed": "110842",
+      "blockNumber": 447203208,
+      "balanceAfter": {
+        "wallet": "0",
+        "deposited": "1444886611",
+        "gas": "2764724395558000"
+      },
+      "status": "success",
+      "amountUSD": 2.611937,
+      "simRecommendation": "Strategy B: fluid-lending at 6.1% APY"
+    },
+    {
+      "timestamp": "2026-03-30T10:53:49.006Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "24140111",
+        "deposited": "1444886981",
+        "gas": "2764724395558000"
+      },
+      "estimatedGasUSD": 0.005985655416,
+      "txHash": "0x5e1680870ffe7c192b44220a0560f7320d4ac4494bafda34e90dff2dc1092de3",
+      "gasUsed": "115662",
+      "blockNumber": 447203876,
+      "balanceAfter": {
+        "wallet": "5559154",
+        "deposited": "1463467956",
+        "gas": "2762402365246000"
+      },
+      "status": "success",
+      "amountUSD": 18.580957,
+      "simRecommendation": "Strategy B: fluid-lending at 6.1% APY"
+    },
+    {
+      "timestamp": "2026-03-30T11:11:44.787Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "25956990",
+        "deposited": "1463470473",
+        "gas": "2762402365246000"
+      },
+      "estimatedGasUSD": 0.005972391180000001,
+      "txHash": "0xf5bb25abb2f88a81c0dc5d2ca7509e09952655b5aca4ce0901dc9dc5b22e7f17",
+      "gasUsed": "115652",
+      "blockNumber": 447208174,
+      "balanceAfter": {
+        "wallet": "12821940",
+        "deposited": "1476605542",
+        "gas": "2760085855686000"
+      },
+      "status": "success",
+      "amountUSD": 13.13505,
+      "simRecommendation": "Strategy B: fluid-lending at 6.1% APY"
+    },
+    {
+      "timestamp": "2026-03-30T11:22:01.921Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "40294605",
+        "deposited": "1476606992",
+        "gas": "2760085855686000"
+      },
+      "estimatedGasUSD": 0.0059797884,
+      "txHash": "0xb611d0066142be08ea626e1421f88e10d672d7d0e3770351d4a31a50e2de983b",
+      "gasUsed": "115755",
+      "blockNumber": 447210633,
+      "balanceAfter": {
+        "wallet": "13838276",
+        "deposited": "1503063342",
+        "gas": "2757770755686000"
+      },
+      "status": "success",
+      "amountUSD": 26.456329,
+      "simRecommendation": "Strategy B: fluid-lending at 6.1% APY"
+    },
+    {
+      "timestamp": "2026-03-30T11:29:34.207Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "556682",
+        "deposited": "1503064413",
+        "gas": "2751447644402000"
+      },
+      "estimatedGasUSD": 0.00593898272,
+      "txHash": "0xcce627c5f65e7a38b59b9afe9e38334b50313f5fd6d75052723cb6fdecd8f8d7",
+      "gasUsed": "110544",
+      "blockNumber": 447212445,
+      "balanceAfter": {
+        "wallet": "0",
+        "deposited": "1503621116",
+        "gas": "2749234774610000"
+      },
+      "status": "success",
+      "amountUSD": 0.556682,
+      "simRecommendation": "Strategy B: fluid-lending at 6.1% APY"
+    },
+    {
+      "timestamp": "2026-03-30T11:35:39.215Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "6886013",
+        "deposited": "1503621983",
+        "gas": "2749234774610000"
+      },
+      "estimatedGasUSD": 0.00599087364,
+      "txHash": "0x58d3944323aa834c9c35e3f1cbdaa43e38a3acac805a81c69c83fc1a33395c4c",
+      "gasUsed": "115606",
+      "blockNumber": 447213907,
+      "balanceAfter": {
+        "wallet": "1579311",
+        "deposited": "1508928706",
+        "gas": "2746922192186000"
+      },
+      "status": "success",
+      "amountUSD": 5.306702,
+      "simRecommendation": "Strategy B: fluid-lending at 6.1% APY"
+    },
+    {
+      "timestamp": "2026-03-30T18:14:09.987Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "26655592",
+        "deposited": "1508985778",
+        "gas": "2746922192186000"
+      },
+      "estimatedGasUSD": 0.005964632688,
+      "txHash": "0xe7b1e4648bbb51672a59ca7dabcba5ab6a62cd2debbdf5fbd2aa5e517c8a4b39",
+      "gasUsed": "115532",
+      "blockNumber": 447309553,
+      "balanceAfter": {
+        "wallet": "1569891",
+        "deposited": "1534071499",
+        "gas": "2744600923242000"
+      },
+      "status": "success",
+      "amountUSD": 25.085701,
+      "simRecommendation": "Strategy A[2/3]: fluid-lending at 6.1% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-30T18:20:20.845Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "37359098",
+        "deposited": "1534072356",
+        "gas": "2743013503242000"
+      },
+      "estimatedGasUSD": 0.005970120000000001,
+      "txHash": "0x75d530ac07704a559a5b367efa6ab930a4d524ff4638305ce7c12a7db5812052",
+      "gasUsed": "115604",
+      "blockNumber": 447311040,
+      "balanceAfter": {
+        "wallet": "15363961",
+        "deposited": "1556067514",
+        "gas": "2740696105458000"
+      },
+      "status": "success",
+      "amountUSD": 21.995137,
+      "simRecommendation": "Strategy A[2/3]: fluid-lending at 6.2% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-30T18:29:54.513Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "7342578",
+        "deposited": "1556068874",
+        "gas": "2737530270658000"
+      },
+      "estimatedGasUSD": 0.00593836,
+      "txHash": "0x19fc207bb7b159b9ec56bed65770d9691ef740f6bc99de6a943d9405b385a8ab",
+      "gasUsed": "110791",
+      "blockNumber": 447313334,
+      "balanceAfter": {
+        "wallet": "0",
+        "deposited": "1563411473",
+        "gas": "2735314450658000"
+      },
+      "status": "success",
+      "amountUSD": 7.342578,
+      "simRecommendation": "Strategy A[3/3]: fluid-lending at 6.2% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-30T18:50:50.783Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "11131543",
+        "deposited": "1563414490",
+        "gas": "2735314450658000"
+      },
+      "estimatedGasUSD": 0.00594964,
+      "txHash": "0x143ca1a491e3a83c87d3d0548e18cbd68c675eeae3770098f5be9bcf3ccdf8ba",
+      "gasUsed": "110972",
+      "blockNumber": 447318325,
+      "balanceAfter": {
+        "wallet": "0",
+        "deposited": "1574546055",
+        "gas": "2733091459554000"
+      },
+      "status": "success",
+      "amountUSD": 11.131543,
+      "simRecommendation": "Strategy A[3/3]: fluid-lending at 6.2% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-30T18:55:09.156Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "46912768",
+        "deposited": "1574546661",
+        "gas": "2733091459554000"
+      },
+      "estimatedGasUSD": 0.0060746928839999995,
+      "txHash": "0xfcf48fc82e37be60eca67c32f562374f2cd6905d425cb2bf45b5bc10de770407",
+      "gasUsed": "115772",
+      "blockNumber": 447319349,
+      "balanceAfter": {
+        "wallet": "37111752",
+        "deposited": "1584347698",
+        "gas": "2730773241026000"
+      },
+      "status": "success",
+      "amountUSD": 9.801016,
+      "simRecommendation": "Strategy A[3/3]: fluid-lending at 6.2% APY (adding)"
+    },
+    {
+      "timestamp": "2026-03-30T19:02:17.971Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "43732081",
+        "deposited": "1592971494",
+        "gas": "2725282562574000"
+      },
+      "estimatedGasUSD": 0.005978625024,
+      "txHash": "0x193fe56e5c2687f8bf03c51862303e59793943c62d209e631f471ff29627168e",
+      "gasUsed": "115721",
+      "blockNumber": 447321043,
+      "balanceAfter": {
+        "wallet": "18442836",
+        "deposited": "1618260760",
+        "gas": "2722963976618000"
+      },
+      "status": "success",
+      "amountUSD": 25.289245,
+      "simRecommendation": "Strategy B: fluid-lending at 6.2% APY"
+    },
+    {
+      "timestamp": "2026-03-30T20:36:05.251Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "203066120",
+        "deposited": "583266398",
+        "gas": "2719275364218000"
+      },
+      "estimatedGasUSD": 0.0059818239120000005,
+      "txHash": "0x63530f5cea9a6390d58265038e085f94812af8ee6cdcbc2b07bc023543f298db",
+      "gasUsed": "115639",
+      "blockNumber": 447343459,
+      "balanceAfter": {
+        "wallet": "21410919",
+        "deposited": "764921608",
+        "gas": "2716949401372000"
+      },
+      "status": "success",
+      "amountUSD": 181.655201,
+      "simRecommendation": "Strategy B: fluid-lending at 6.2% APY"
+    },
+    {
+      "timestamp": "2026-03-30T21:58:11.570Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "46361831",
+        "deposited": "764927390",
+        "gas": "2716949401372000"
+      },
+      "estimatedGasUSD": 0.006020759584,
+      "txHash": "0x646e66b03b16fc54a7435b7638643479d15ce9805c91ab2cd81b94441078d021",
+      "gasUsed": "115750",
+      "blockNumber": 447363020,
+      "balanceAfter": {
+        "wallet": "19872634",
+        "deposited": "791416597",
+        "gas": "2714629539872000"
+      },
+      "status": "success",
+      "amountUSD": 26.489197,
+      "simRecommendation": "Strategy B: fluid-lending at 6.2% APY"
+    }
+  ],
+  "dailySummaries": [],
+  "safety": {
+    "violations": [],
+    "lastInvariantCheck": "2026-03-30T21:57:37.254Z"
+  },
+  "trackedFreeUSDC": "66222993",
+  "dailyTxCount": 0,
+  "dailyTxDate": "2026-03-28",
+  "halted": false,
+  "haltReason": null,
+  "circuitBreakers": {
+    "fluid-lending:arbitrum": {
+      "reason": "fluid_rate_limit_0xdee51a8a",
+      "blockedUntil": "2026-03-29T05:56:28.342Z"
+    },
+    "fluid-lending:base": {
+      "reason": "fluid_rate_limit_0xdee51a8a",
+      "blockedUntil": "2026-03-29T05:56:28.342Z"
+    }
+  },
+  "lastDailySummaryAt": "2026-03-30",
+  "_lastStrandedCBBTCAlert": 1774907859873
+}
