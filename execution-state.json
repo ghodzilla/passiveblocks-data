@@ -567,11 +567,14 @@
       "nftTokenId": "62170803",
       "tickLower": -69000,
       "tickUpper": -61000,
-      "entryValueUSD": 1030.968,
+      "entryValueUSD": 38,
       "depositedUSD": 1030.968,
       "entryDate": "2026-03-30T20:28:35.583Z",
       "strategySlice": "A",
-      "outOfRangeSince": null
+      "outOfRangeSince": null,
+      "currentValueUSD": 38,
+      "balanceUSD": 38,
+      "_note": "Entry value corrected 2026-03-31: stored $1030.968 was intended amount; actual on-chain liquidity 4164674 → ~$38"
     },
     {
       "id": "lp-aerodrome-slipstream-base-USDC-CBBTC-1774902896267",
