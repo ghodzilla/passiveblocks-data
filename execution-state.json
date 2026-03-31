@@ -2,7 +2,7 @@
   "version": "1.0",
   "walletAddress": "0x569EC506f168AE218a3fE7b1CaA9354a4908eD9A",
   "chain": "base",
-  "lastCycleAt": "2026-03-30T21:58:29.497Z",
+  "lastCycleAt": "2026-03-31T07:09:49.399Z",
   "enabled": true,
   "positions": [
     {
@@ -374,42 +374,6 @@
       "poolSymbol": "GHO"
     },
     {
-      "id": "lp-aerodrome-slipstream-base-USDC-CBBTC-1774869683518",
-      "type": "lp",
-      "protocol": "aerodrome-slipstream",
-      "chain": "base",
-      "poolAddress": "0x4e962BB3889Bf030368F56810A9c96B83CB3E778",
-      "token0": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-      "token1": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
-      "token0Symbol": "USDC",
-      "token1Symbol": "CBBTC",
-      "tickSpacing": 100,
-      "tickLower": -69100,
-      "tickUpper": -61200,
-      "priceLower": 0.0009981025583740096,
-      "priceUpper": 0.002199128748647653,
-      "entryTick": -65153,
-      "entryValueUSD": 51.440055,
-      "pairTier": 2,
-      "gaugeAddress": "0x6399ed6725cC163D019aA64FF55b22149D7179A8",
-      "stakedInGauge": false,
-      "nftTokenId": "62071215",
-      "symbol": "USDC-CBBTC",
-      "apy": 0,
-      "strategySlice": "A",
-      "balanceUSD": 51.440055,
-      "entryDate": "2026-03-30T11:21:23.518Z",
-      "currentValueUSD": 51.440055,
-      "rebalanceCount": 0,
-      "outOfRangeSince": null,
-      "status": "exited",
-      "currentIL": -0.00014578365024053852,
-      "currentILUSD": -0.007499118986474065,
-      "gaugeRewardsAERO": 0,
-      "exitDate": "2026-03-30T22:00:13.871Z",
-      "exitReason": "closed-auto"
-    },
-    {
       "id": "fluid-lending-arbitrum-USDC-1774869731556",
       "type": "lending",
       "protocol": "fluid-lending",
@@ -639,8 +603,8 @@
       "rebalanceCount": 0,
       "outOfRangeSince": null,
       "status": "active",
-      "currentIL": -0.00001711076450749971,
-      "currentILUSD": -0.005745935970979411,
+      "currentIL": -0.00018602851277527144,
+      "currentILUSD": -0.062469910255309104,
       "gaugeRewardsAERO": 0
     },
     {
@@ -673,8 +637,8 @@
       "rebalanceCount": 0,
       "outOfRangeSince": null,
       "status": "active",
-      "currentIL": -0.0000799914675086999,
-      "currentILUSD": -0.008173612221071307,
+      "currentIL": -0.0004139943156822312,
+      "currentILUSD": -0.042302374284436166,
       "gaugeRewardsAERO": 0
     },
     {
@@ -727,8 +691,8 @@
       "rebalanceCount": 0,
       "outOfRangeSince": null,
       "status": "active",
-      "currentIL": -4.9995000361846564e-8,
-      "currentILUSD": -0.0000019864911453975375,
+      "currentIL": -0.00008610327171920673,
+      "currentILUSD": -0.0034212098334235296,
       "gaugeRewardsAERO": 0
     },
     {
@@ -770,7 +734,75 @@
       "currentValueUSD": 68,
       "entryDate": "2026-01-01T00:00:00.000Z",
       "strategySlice": "A",
-      "note": "pre-existing position"
+      "note": "pre-existing position",
+      "outOfRangeSince": null
+    },
+    {
+      "id": "fluid-lending-arbitrum-USDC-1774939447772",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "arbitrum",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "assetSymbol": "USDC",
+      "depositedAmount": "7949054",
+      "depositedUSD": 7.949054,
+      "currentValueUSD": 7.949054,
+      "balanceUSD": 7.949054,
+      "apy": 6.16,
+      "strategySlice": "B",
+      "entryDate": "2026-03-31T06:44:07.772Z",
+      "firstEntryDate": "2026-03-31T06:44:07.772Z",
+      "entryAPY": 6.16,
+      "entryTxHash": "0x91d14057ed388b60340302953e34cf4ed77c21c121feb0f6be8ec357af2b60d7",
+      "status": "active",
+      "poolSymbol": "GHO"
+    },
+    {
+      "id": "fluid-lending-base-USDC-1774940982142",
+      "type": "lending",
+      "protocol": "fluid-lending",
+      "chain": "base",
+      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "assetSymbol": "USDC",
+      "depositedAmount": "4767618",
+      "depositedUSD": 4.767618,
+      "currentValueUSD": 4.767618,
+      "balanceUSD": 4.767618,
+      "apy": 6,
+      "strategySlice": "B",
+      "entryDate": "2026-03-31T07:09:42.142Z",
+      "firstEntryDate": "2026-03-31T07:09:42.142Z",
+      "entryAPY": 6,
+      "entryTxHash": "0xc33ff61fe666bb98de2cb3545387aaef980bdbb7e63023ab35dd45845e8b3ea0",
+      "status": "active",
+      "poolSymbol": "USDC"
+    },
+    {
+      "id": "lp-aerodrome-slipstream-base-USDC-CBBTC-1774941712208",
+      "type": "lp",
+      "nftTokenId": "62300450",
+      "protocol": "aerodrome-slipstream",
+      "chain": "base",
+      "symbol": "USDC-CBBTC",
+      "token0": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "token1": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+      "token0Symbol": "USDC",
+      "token1Symbol": "CBBTC",
+      "tickLower": -69000,
+      "tickUpper": -61000,
+      "tickSpacing": 100,
+      "poolAddress": "0x4e962BB3889Bf030368F56810A9c96B83CB3E778",
+      "mintTxHash": "0x3431edc6627a066095cf8251ec667985165a8afda2cdc9d2a4f65f4b815f52e2",
+      "entryDate": "2026-03-31T07:21:52.208Z",
+      "entryValueUSD": 333.4058178910616,
+      "currentValueUSD": 333.4058178910616,
+      "balanceUSD": 333.4058178910616,
+      "apy": 58,
+      "strategySlice": "A",
+      "rebalanceCount": 0,
+      "outOfRangeSince": null,
+      "status": "active",
+      "recoveredFrom": "stranded_cbbtc"
     }
   ],
   "transactions": [
@@ -2365,14 +2397,62 @@
       "status": "success",
       "amountUSD": 26.489197,
       "simRecommendation": "Strategy B: fluid-lending at 6.2% APY"
+    },
+    {
+      "timestamp": "2026-03-31T06:43:59.360Z",
+      "action": "deposit",
+      "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "chain": "arbitrum",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "7949054",
+        "deposited": "791454346",
+        "gas": "2713045752380000"
+      },
+      "estimatedGasUSD": 0.00594224964,
+      "txHash": "0x91d14057ed388b60340302953e34cf4ed77c21c121feb0f6be8ec357af2b60d7",
+      "gasUsed": "110809",
+      "blockNumber": 447488259,
+      "balanceAfter": {
+        "wallet": "0",
+        "deposited": "799403408",
+        "gas": "2710826248110000"
+      },
+      "status": "success",
+      "amountUSD": 7.949054,
+      "simRecommendation": "Strategy B: fluid-lending at 6.2% APY"
+    },
+    {
+      "timestamp": "2026-03-31T07:09:36.189Z",
+      "action": "deposit",
+      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "chain": "base",
+      "protocol": "fluid-lending",
+      "balanceBefore": {
+        "wallet": "11919046",
+        "deposited": "61064828",
+        "gas": "418974927135015"
+      },
+      "estimatedGasUSD": 0.001781592,
+      "txHash": "0xc33ff61fe666bb98de2cb3545387aaef980bdbb7e63023ab35dd45845e8b3ea0",
+      "gasUsed": "115102",
+      "blockNumber": 44075816,
+      "balanceAfter": {
+        "wallet": "7151428",
+        "deposited": "65832446",
+        "gas": "418283168276478"
+      },
+      "status": "success",
+      "amountUSD": 4.767618,
+      "simRecommendation": "Strategy B: fluid-lending at 6.0% APY"
     }
   ],
   "dailySummaries": [],
   "safety": {
     "violations": [],
-    "lastInvariantCheck": "2026-03-30T21:57:37.254Z"
+    "lastInvariantCheck": "2026-03-31T07:09:34.102Z"
   },
-  "trackedFreeUSDC": "66222993",
+  "trackedFreeUSDC": "11919046",
   "dailyTxCount": 0,
   "dailyTxDate": "2026-03-28",
   "halted": false,
@@ -2388,5 +2468,5 @@
     }
   },
   "lastDailySummaryAt": "2026-03-30",
-  "_lastStrandedCBBTCAlert": 1774907859873
+  "_lastStrandedCBBTCAlert": 1774939423989
 }
