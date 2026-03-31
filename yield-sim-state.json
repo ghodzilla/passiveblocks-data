@@ -1,7 +1,7 @@
 {
   "version": "2.1",
   "startedAt": "2026-03-20T23:38:46.467Z",
-  "lastUpdatedAt": "2026-03-30T10:43:50.622Z",
+  "lastUpdatedAt": "2026-03-31T06:42:38.300Z",
   "capital": 5000,
   "rotations": [
     {
@@ -7863,6 +7863,38 @@
     "name": "Max APY",
     "positions": [
       {
+        "project": "aerodrome-slipstream",
+        "chain": "Base",
+        "symbol": "USDC-CBBTC",
+        "pool": "0x4e962BB3889Bf030368F56810A9c96B83CB3E778",
+        "llama_id": "ff82c362-dea1-4946-b3b1-92ebd5100b1e",
+        "type": "lp",
+        "tickSpacing": 100,
+        "strategySlice": "A",
+        "apy": 55.88426,
+        "apy7d": null,
+        "apyMean30d": 65.39159,
+        "tvlUsd": 10025564,
+        "_source": "pool-resolver-2026-03-31",
+        "_verified": true
+      },
+      {
+        "project": "aerodrome-slipstream",
+        "chain": "Base",
+        "symbol": "WETH-USDC",
+        "pool": "0xb2cc224c1c9feE385f8ad6a55b4d94E92359DC59",
+        "llama_id": "10137e20-efbc-4e15-a733-17ecb52c48e8",
+        "type": "lp",
+        "tickSpacing": 100,
+        "strategySlice": "A",
+        "apy": 16.41015,
+        "apy7d": null,
+        "apyMean30d": 48.43893,
+        "tvlUsd": 19435272,
+        "_source": "pool-resolver-2026-03-31",
+        "_verified": true
+      },
+      {
         "project": "uniswap-v3",
         "chain": "Ethereum",
         "symbol": "USDC-WETH",
@@ -7904,26 +7936,6 @@
       },
       {
         "project": "uniswap-v3",
-        "chain": "Base",
-        "symbol": "USDC-CBBTC",
-        "pool": "9c3c95ef-5e04-4c75-b7ec-6a59a9ea904b",
-        "llama_id": "9c3c95ef-5e04-4c75-b7ec-6a59a9ea904b",
-        "tickSpacing": null,
-        "apy": 42.63,
-        "apyBase": 42.63,
-        "apyReward": 0,
-        "apy7d": null,
-        "apyMean30d": 44.93,
-        "tvlUsd": 8979507,
-        "il7d": 0,
-        "type": "lp",
-        "category": "BTC/STABLE",
-        "_source": "defillama-2026-03-30",
-        "_verified": false,
-        "score": 296.4171537911895
-      },
-      {
-        "project": "uniswap-v3",
         "chain": "Ethereum",
         "symbol": "WETH-USDT",
         "pool": "fc9f488e-8183-416f-a61e-4e5c571d4395",
@@ -7941,26 +7953,6 @@
         "_source": "defillama-2026-03-30",
         "_verified": false,
         "score": 260.8795825371905
-      },
-      {
-        "project": "aerodrome-slipstream",
-        "chain": "Base",
-        "symbol": "USDC-CBBTC",
-        "pool": "0x4e962BB3889Bf030368F56810A9c96B83CB3E778",
-        "llama_id": "ff82c362-dea1-4946-b3b1-92ebd5100b1e",
-        "tickSpacing": 100,
-        "apy": 39.65,
-        "apyBase": 34.85,
-        "apyReward": 4.8,
-        "apy7d": null,
-        "apyMean30d": 65.42,
-        "tvlUsd": 12770119,
-        "il7d": 0,
-        "type": "lp",
-        "category": "BTC/STABLE",
-        "_source": "defillama-2026-03-30",
-        "_verified": true,
-        "score": 247.65089380925173
       },
       {
         "project": "uniswap-v3",
@@ -8121,26 +8113,6 @@
         "_source": "defillama-2026-03-30",
         "_verified": false,
         "score": 94.92682656999988
-      },
-      {
-        "project": "aerodrome-slipstream",
-        "chain": "Base",
-        "symbol": "WETH-USDC",
-        "pool": "0xb2cc224c1c9feE385f8ad6a55b4d94E92359DC59",
-        "llama_id": "10137e20-efbc-4e15-a733-17ecb52c48e8",
-        "tickSpacing": 100,
-        "apy": 22.18,
-        "apyBase": 12.5,
-        "apyReward": 9.68,
-        "apy7d": null,
-        "apyMean30d": 49.23,
-        "tvlUsd": 15622400,
-        "il7d": 0,
-        "type": "lp",
-        "category": "ETH/STABLE",
-        "_source": "defillama-2026-03-30",
-        "_verified": true,
-        "score": 89.92184691751345
       },
       {
         "project": "jupiter-lend",
@@ -8383,26 +8355,6 @@
         "score": 37.28018158467965
       },
       {
-        "project": "fluid-lending",
-        "chain": "Arbitrum",
-        "symbol": "USDC",
-        "pool": "4c45cc9e-e1a4-43c9-8a3d-687d96abb07c",
-        "llama_id": "4c45cc9e-e1a4-43c9-8a3d-687d96abb07c",
-        "tickSpacing": null,
-        "apy": 5.94,
-        "apyBase": 4.94,
-        "apyReward": 1,
-        "apy7d": null,
-        "apyMean30d": 5.44,
-        "tvlUsd": 32450973,
-        "il7d": 0,
-        "type": "lending",
-        "category": "STABLE-LP",
-        "_source": "defillama-2026-03-30",
-        "_verified": false,
-        "score": 37.10546495203431
-      },
-      {
         "project": "kamino-lend",
         "chain": "Solana",
         "symbol": "SOL",
@@ -8608,7 +8560,8 @@
         "symbol": "USDC",
         "type": "lending",
         "apy": 4.5,
-        "tvlUsd": 150000000
+        "tvlUsd": 150000000,
+        "_verified": false
       },
       {
         "project": "aave-v3",
@@ -8616,7 +8569,8 @@
         "symbol": "USDC",
         "type": "lending",
         "apy": 4.8,
-        "tvlUsd": 200000000
+        "tvlUsd": 200000000,
+        "_verified": false
       }
     ],
     "virtualBalance": 2672.8484544544854,
@@ -8885,6 +8839,21 @@
     "name": "Risk-Adjusted",
     "positions": [
       {
+        "project": "fluid-lending",
+        "chain": "Arbitrum",
+        "symbol": "USDC",
+        "pool": "0x1A996cb54bb95462040408C06122D45D6Cdb6096",
+        "llama_id": "4c45cc9e-e1a4-43c9-8a3d-687d96abb07c",
+        "type": "lending",
+        "strategySlice": "B",
+        "apy": 5.93,
+        "apy7d": null,
+        "apyMean30d": 5.46645,
+        "tvlUsd": 32415788,
+        "_source": "pool-resolver-2026-03-31",
+        "_verified": true
+      },
+      {
         "project": "aerodrome-slipstream",
         "chain": "Base",
         "symbol": "EURC-USDC",
@@ -9165,26 +9134,6 @@
         "score": 37.28018158467965
       },
       {
-        "project": "fluid-lending",
-        "chain": "Arbitrum",
-        "symbol": "USDC",
-        "pool": "4c45cc9e-e1a4-43c9-8a3d-687d96abb07c",
-        "llama_id": "4c45cc9e-e1a4-43c9-8a3d-687d96abb07c",
-        "tickSpacing": null,
-        "apy": 5.94,
-        "apyBase": 4.94,
-        "apyReward": 1,
-        "apy7d": null,
-        "apyMean30d": 5.44,
-        "tvlUsd": 32450973,
-        "il7d": 0,
-        "type": "lending",
-        "category": "STABLE-LP",
-        "_source": "defillama-2026-03-30",
-        "_verified": false,
-        "score": 37.10546495203431
-      },
-      {
         "project": "kamino-lend",
         "chain": "Solana",
         "symbol": "SOL",
@@ -9390,7 +9339,8 @@
         "symbol": "USDC",
         "type": "lending",
         "apy": 4.5,
-        "tvlUsd": 150000000
+        "tvlUsd": 150000000,
+        "_verified": false
       },
       {
         "project": "aave-v3",
@@ -9398,7 +9348,8 @@
         "symbol": "USDC",
         "type": "lending",
         "apy": 4.8,
-        "tvlUsd": 200000000
+        "tvlUsd": 200000000,
+        "_verified": false
       }
     ],
     "virtualBalance": 2606.71712445068,
@@ -17423,5 +17374,6 @@
     }
   ],
   "lastPoolScan": "2026-03-30T18:22:42.766Z",
-  "poolScanCount": 20
+  "poolScanCount": 20,
+  "poolResolverRanAt": "2026-03-31T06:42:38.300Z"
 }
